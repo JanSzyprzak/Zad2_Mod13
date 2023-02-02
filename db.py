@@ -140,6 +140,7 @@ if __name__ == '__main__':
     if conn is not None:
         execute_sql(conn, create_projects_sql)
         execute_sql(conn, create_tasks_sql)
+        print()
         add_project(conn, ("test", "coś", "test")) 
         add_task(conn, (1, "test", "inny", "test", "baza", "test")) 
         print(select_all(conn, "projects"))
