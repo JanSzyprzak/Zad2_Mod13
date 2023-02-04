@@ -148,8 +148,7 @@ if __name__ == '__main__':
         print(select_where(conn, "tasks", id = 5))
         print()
         update(conn, "tasks", 2, status="started")
-        delete_where(conn, "tasks", id = 8)
-        delete_all(conn, "tasks")
+       
         conn.close()
 
     

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zad1-mod10"
+version = "0.1.0"
+description = ""
+authors = ["Jan Szyprzak <jan.szyprzak@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zad1_mod10"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+sqlalchemy = "2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
